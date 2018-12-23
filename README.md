@@ -1,6 +1,7 @@
 # README #
 
-vietvivu365 Backend API
+API for vehicle sharing service
+
 ### What is this repository for? ###
 
 * Provide API Endpoints
@@ -32,7 +33,8 @@ For `stag` or `prod` environment:
 
 ### Endpoints
 
-###Notice: MUST USE 3 headers [Authorization, Api-Key, Origin]
+### Notice: MUST USE 3 headers [Authorization, Api-Key, Origin]
+
 ```
 allowed_origins=
     localhost,
@@ -54,8 +56,7 @@ allowed_origins=
     'data': {}
 }
 ```
-
-###User:
+### User:
 
 **User model**
 ```
@@ -114,7 +115,8 @@ allowed_origins=
     feedbacks = ListField(default=None)
 ```
 
-#####Get user:
+##### Get user:
+
 ```
 curl -X GET 'localhost:30000/v1/user/{$user_id}' \
     -H 'Authorization: Bearer {token}' \
@@ -131,7 +133,8 @@ Response:
 403 Not allow origin
 ```
 
-#####Edit user information:
+##### Edit user information:
+
 ```
 PUT /v1/user/{user_id}
 
@@ -148,9 +151,10 @@ curl -v -XPUT 'http://localhost:30000/v1/user/NMTy4pl7aZf0bUzegn1w4ISfoIo2' \
 ---
 
 
-###Vehicle:
+### Vehicle:
 
-#####Vehicle model:
+##### Vehicle model:
+
 ```
     # owner
     owner = StringField()
@@ -213,8 +217,9 @@ curl -v -XPUT 'http://localhost:30000/v1/user/NMTy4pl7aZf0bUzegn1w4ISfoIo2' \
     number_of_rating = IntField()
 ```
 
-#####Adding new vehicle:
+##### Adding new vehicle:
 **Notice**: location must be in the order `[long, lat]`
+
 ```
 curl -v -XPOST 'localhost:30000/v1/user/vehicle' \
     -H 'Api-Key: vietvivu365.local' \
@@ -223,7 +228,9 @@ curl -v -XPOST 'localhost:30000/v1/user/vehicle' \
     -H 'Origin: {allowed_origins}'
     -d '{"license_plate": "72f28821", "address": "vung tau", "location": [107.1106857, 10.3778339], "manufacturer": "bmw", "brand": "bmw", "year": 2019, "transmission": "manual", "engine": "hybrid", "gasoline_consumption_per_100_km": 100, "seats": 5, "model": "xx", "description": "nice car of long ka", "images": ["image1", "image2"], "price_per_day": 10000, "handover_documents": []}'
 ```
-#####Get list all vehicle info of current user
+
+##### Get list all vehicle info of current user
+
 
 ```
 GET /v1/user/vehicle
@@ -233,7 +240,8 @@ curl -v -XGET 'localhost:30000/v1/user/vehicle' \
         -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImRhNWZiMGJkZTJlMzUwMmZkZTE1YzAwMWE0MWIxYzkxNDc4MTI0NzYifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vdHJpcHgtZTk1NWYiLCJuYW1lIjoibG9uZyB0aWVuIiwiYXVkIjoidHJpcHgtZTk1NWYiLCJhdXRoX3RpbWUiOjE1MjExNjQzODksInVzZXJfaWQiOiJON2Q1amVwOFJYWXMxelBTRFFFSmd2TXFRNG4xIiwic3ViIjoiTjdkNWplcDhSWFlzMXpQU0RRRUpndk1xUTRuMSIsImlhdCI6MTUyMTI0MDM5NiwiZXhwIjoxNTIxMjQzOTk2LCJlbWFpbCI6ImxvbmdzeW1ibG9nQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbImxvbmdzeW1ibG9nQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.aNY7RrbqgvJJYdY-Mcggh9C2eeDYTD8OarmInolLLMBSGu5edlA2av06CvntZqOeJy_tsW8Vgpq2o2MJTN5sXJ_NUNc7vDiJxr52hzAFi0jcbOGN98h4diH9CnggXJ6jkhSSFXO9ahOOHL1tQ6UXHTqLngIL8mXn84vO1rhheGvTnRlysD-9Grv1iEYrmW8O-IIbHYZE73SnaOpS2YhXpK9D8kR95JbNg699f54UEoyHBT-oB2hQJUelIreQKAGflrxgZorgLA31fH071v1zzn24yoJ5Hdzeby6KagKQ2k9Lc8bxdtB18H8UwELL-FI-ek-KLdJx79CCtJlr-iCv9Q'
 ```
 
-#####Get one vehicle info of current user
+##### Get one vehicle info of current user
+
 ```
 GET /v1/user/vehicle/{vehicle_id}
 curl -v -XGET 'localhost:30000/v1/user/vehicle/5aac51d8737671235eca4657' \
@@ -242,7 +250,7 @@ curl -v -XGET 'localhost:30000/v1/user/vehicle/5aac51d8737671235eca4657' \
         -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImRhNWZiMGJkZTJlMzUwMmZkZTE1YzAwMWE0MWIxYzkxNDc4MTI0NzYifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vdHJpcHgtZTk1NWYiLCJuYW1lIjoibG9uZyB0aWVuIiwiYXVkIjoidHJpcHgtZTk1NWYiLCJhdXRoX3RpbWUiOjE1MjExNjQzODksInVzZXJfaWQiOiJON2Q1amVwOFJYWXMxelBTRFFFSmd2TXFRNG4xIiwic3ViIjoiTjdkNWplcDhSWFlzMXpQU0RRRUpndk1xUTRuMSIsImlhdCI6MTUyMTI0MDM5NiwiZXhwIjoxNTIxMjQzOTk2LCJlbWFpbCI6ImxvbmdzeW1ibG9nQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbImxvbmdzeW1ibG9nQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.aNY7RrbqgvJJYdY-Mcggh9C2eeDYTD8OarmInolLLMBSGu5edlA2av06CvntZqOeJy_tsW8Vgpq2o2MJTN5sXJ_NUNc7vDiJxr52hzAFi0jcbOGN98h4diH9CnggXJ6jkhSSFXO9ahOOHL1tQ6UXHTqLngIL8mXn84vO1rhheGvTnRlysD-9Grv1iEYrmW8O-IIbHYZE73SnaOpS2YhXpK9D8kR95JbNg699f54UEoyHBT-oB2hQJUelIreQKAGflrxgZorgLA31fH071v1zzn24yoJ5Hdzeby6KagKQ2k9Lc8bxdtB18H8UwELL-FI-ek-KLdJx79CCtJlr-iCv9Q'
 ```
 
-#####Get vehicle info of another user (public info)
+##### Get vehicle info of another user (public info)
 
 ```
 GET /v1/vehicle/{vehicle_id}
@@ -251,14 +259,15 @@ GET /v1/vehicle/{vehicle_id}
 same as above, but limit the returned fields
 ```
 
-#####Get public info by slug
+##### Get public info by slug
+
 ```
 GET /v1/vehicle/slug/{slug}
 # with headers
 return vehicle info with limited info
 ```
 
-#####Edit vehicle info of current user
+##### Edit vehicle info of current user
 
 ```
 PUT /v1/user/vehicle/{vehicle_id}
@@ -272,15 +281,18 @@ curl -v -XPUT 'localhost:30000/v1/user/vehicle/5ab1c34873767115e93b638f' -H'Cont
 200 OK - if success
 400 Bad Request - if data not valid, attribute not valid
 ```
-#####Delete vehicle of current user
+
+##### Delete vehicle of current user
+
 ```
 DELETE /v1/user/vehicle/{vehicle_id}
 // -H 'Origin: {allowed_origins}'
 // todo add more desc
 ```
 
-#####Get vehicle list:
+##### Get vehicle list:
 No need token to get vehicle list
+
 ```
 curl -v -XGET 'localhost:30000/v1/vehicle' \
     -H 'Api-Key: vietvivu365.local' \
@@ -288,13 +300,14 @@ curl -v -XGET 'localhost:30000/v1/vehicle' \
     -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImRhNWZiMGJkZTJlMzUwMmZkZTE1YzAwMWE0MWIxYzkxNDc4MTI0NzYifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vdHJpcHgtZTk1NWYiLCJuYW1lIjoibG9uZyB0aWVuIiwiYXVkIjoidHJpcHgtZTk1NWYiLCJhdXRoX3RpbWUiOjE1MjExNjQzODksInVzZXJfaWQiOiJON2Q1amVwOFJYWXMxelBTRFFFSmd2TXFRNG4xIiwic3ViIjoiTjdkNWplcDhSWFlzMXpQU0RRRUpndk1xUTRuMSIsImlhdCI6MTUyMTE2NDM5MCwiZXhwIjoxNTIxMTY3OTkwLCJlbWFpbCI6ImxvbmdzeW1ibG9nQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbImxvbmdzeW1ibG9nQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.CIP6F3KC6l9e8ohoQWMD_zG-N2fq21SE93s1Wp3pwAdwPURom8BiQ2RG7nVpFivtEaNdZtl6WuJmaY8bVb4cdjb4-PznqboKwID1-SWvo4xR_TAXHQwsFPVn18FGArkjypMW6G5-Ocv6Yxq6gk2Q8jS7WXLD0SFRd82mSA9vvpfmTVj40RZaJZDTAgpfLqUoRpRy-TDK-0mC2duX-pqX4Gq8L8re6KAeeVs7T1aL-IrQZLqXJIdaukP9cSwTdtITKywOOlii8YQcPb4qWzzjKQgb9dfZVZyrEGPY8LnDhfdn7bdNgxGt4lc3p28SA9e1QMfRUTT5ObCBgdtuf102DA' \
 ```
 
-#####Search vehicle
+##### Search vehicle
 Search by timestamp
 
 For pagination, append `page=x&item_perpage=y` into url query string
 
 
 Search by `from_ts` to `to_ts`
+
 ```
  curl -XGET 'localhost:30000/v1/vehicle?from_ts=1522908043&to_ts=1523070554' \
  -H'origin:localhost'\
@@ -302,6 +315,7 @@ Search by `from_ts` to `to_ts`
 ```
 
 Search by `from_ppd`, `to_ppd` (ppd=price per day)
+
 ```
 curl -XGET -H'origin:localhost' \
     -H'api-key:vietvivu365.local' \
@@ -309,6 +323,7 @@ curl -XGET -H'origin:localhost' \
 ```
 
 Search by `instant_booking`, only accept value range for True: `['true', '1']` from client side
+
 ```
 curl -XGET -H'origin:localhost' \
     -H'api-key:vietvivu365.local' \
@@ -316,6 +331,7 @@ curl -XGET -H'origin:localhost' \
 ```
 
 Search by `delivery` (delivery.enabled=True), only accept value range for True: `['true', '1']` from client side
+
 ```
 curl -XGET -H'origin:localhost' \
     -H'api-key:vietvivu365.local' \
@@ -325,6 +341,7 @@ curl -XGET -H'origin:localhost' \
 Search by `seats`. [4,7] is available value for search
 
 Search by multiple seat option `seats=4,7`
+
 ```
 curl -XGET -H'origin:localhost' \
     -H'api-key:vietvivu365.local' \
@@ -332,6 +349,7 @@ curl -XGET -H'origin:localhost' \
 ```
 
 Search by `['manufacturer', 'brand', 'year', 'transmission', 'engine', 'model', 'seats']`
+
 ```
 curl -XGET -H'origin:localhost' \
     -H'api-key:vietvivu365.local' \
@@ -340,6 +358,7 @@ curl -XGET -H'origin:localhost' \
 
 Search by `long, lat, r`
 if `r` is not specified, default r is `30` km
+
 ```
 curl -v -XGET 'localhost:30000/v1/vehicle?location=100.1,10,30' \
     -H'origin:localhost' \
@@ -351,6 +370,7 @@ curl -v -XGET 'localhost:30000/v1/vehicle?location=100.1,10,30' \
 **Manufacturer**
 
 For pagination, append `page=x&item_perpage=y` into url query string
+
 ```
 curl -XGET 'localhost:30000/v1/vehicle/manufacturer' \
     -H'origin:localhost' \
@@ -376,7 +396,8 @@ curl -XGET 'localhost:30000/v1/vehicle/model' \
     -H'api-key:vietvivu365.local'
 ```
 
-#####User subscription
+##### User subscription
+
 ```
 Request:
     
@@ -395,8 +416,9 @@ Response:
 
 ---
 
-#####Booking
+##### Booking
 **Create a booking**
+
 ```
 curl -v -XPOST 'http://localhost:30000/v1/booking/dsXpLWe5bLQdeX1ONSjeNPFBw0f2/5adc40f0737671396a8174c4' \
                     -H'Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImQ5NGQ1ZjMyZTE4NmRjMWUxNjA0MjhiZDdhODE1NDI2ZjI3NDg4MmIifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vdHJpcHgtc3RhZy05MjRlZSIsIm5hbWUiOiJsb25na2EiLCJhdWQiOiJ0cmlweC1zdGFnLTkyNGVlIiwiYXV0aF90aW1lIjoxNTI1NTY5MzkxLCJ1c2VyX2lkIjoiZHNYcExXZTViTFFkZVgxT05TamVOUEZCdzBmMiIsInN1YiI6ImRzWHBMV2U1YkxRZGVYMU9OU2plTlBGQncwZjIiLCJpYXQiOjE1MjU1NjkzOTEsImV4cCI6MTUyNTU3Mjk5MSwiZW1haWwiOiJuZ3V5ZW4udGllbi5sb25nQGlwcmljZWdyb3VwLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbIm5ndXllbi50aWVuLmxvbmdAaXByaWNlZ3JvdXAuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.XCM6pqnJcWBssMbypyoI1ytZkPTgAQ00fyds8pyP2Fxuh6zj4GzROuW1I0HJLmCKhm5UxyrTxsc3YlRoQNZGQ-irW8jfIo0eDahgksAumvpWMdbHXU_vFn8wbPHGb0j7pzSlEhA6ZARYaTon-GsAVgviUqKGYMvU_2oKk62BLR0mion_nx4hQKYPdebtlsLunosa9JJXagKgOLG7JFn75M2wFZqP3uoSDTduPlOPWQBw8zBSguNtteWyzwGk6e5rnRlrriAPvXaR3hXHSWrhXtESB-qIzhYRPzqI6N2LBGN8TvzFLZgISsGaq0YWMXHGdKfQD7TdeiqLb3YzMqrXzg' \
@@ -442,6 +464,7 @@ curl -v -XPOST 'http://localhost:30000/v1/booking/dsXpLWe5bLQdeX1ONSjeNPFBw0f2/5
 ```
 
 **Update:**
+
 ```
 update status:
     + from: initialized -> accepted/rejected/cancled -> canceled/done
@@ -459,6 +482,7 @@ curl -v -XPUT 'http://localhost:30000/v1/user/booking/V7HSUF' \
 **Get booking history**
 
 ***Renter***
+
 ```
 GET /v1/booking/history/renter
 
@@ -470,6 +494,7 @@ curl -v -XGET 'http://localhost:30000/v1/booking/history/renter' \
 ```
 
 ***Vehicle owner***
+
 ```
 Get all booking history of all vehicles
 
@@ -563,6 +588,7 @@ HTTP/1.1 200 OK
 ```
 
 ***Renter view an owner info of a booking***
+
 ```
 HTTP/1.1 200 OK
 
@@ -613,6 +639,7 @@ HTTP/1.1 200 OK
 ```
 
 **Error**
+
 ```
 HTTP/1.1 400 Bad Request
 {
@@ -622,7 +649,7 @@ HTTP/1.1 400 Bad Request
 ```
 ---
 
-#####Feedback
+##### Feedback
 
 **Give feed back**
 
@@ -644,7 +671,8 @@ Renter give feedback vehicle of owner
     200 with valid json string IF success
 ```
 
-***example: renter give feedback to a vehicle ***
+**example: renter give feedback to a vehicle**
+
 ```
 curl -v -XPOST 'https://stag-api.vietvivu365.vn/v1/feedback/UC75HB' \
 -d '{"rating":5.0, "comment":"good nak"}' \
@@ -654,10 +682,8 @@ curl -v -XPOST 'https://stag-api.vietvivu365.vn/v1/feedback/UC75HB' \
 -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjEyMDUwYzMxN2ExMjJlZDhlMWZlODdkN2FhZTdlMzk3OTBmNmMwYjQifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vdHJpcHgtc3RhZy05MjRlZSIsIm5hbWUiOiJMZSB0cnVuZyBoaWV1IiwiYXVkIjoidHJpcHgtc3RhZy05MjRlZSIsImF1dGhfdGltZSI6MTUyNjkxOTk2OSwidXNlcl9pZCI6IlprRk1aOWl2WEFUTkNzWU1XQk5lMmlmS25vVzIiLCJzdWIiOiJaa0ZNWjlpdlhBVE5Dc1lNV0JOZTJpZktub1cyIiwiaWF0IjoxNTI2OTE5OTc0LCJleHAiOjE1MjY5MjM1NzQsImVtYWlsIjoibGV0cnVuZ2hpZXUzN0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJsZXRydW5naGlldTM3QGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.JLmHO7IKYypLE7e74GWHFTz8sEdsi7Zf-AcBTCPJ6GKMitasQ1Z5SYIkUPinnKmrIH-Q37WX2z7aL6OiK-AX-Cc5523KUaUGEZnOQre413NU7zG2TVK_BVHyarC2vOK0VIJfqjHRNfFfwS0-LYKP_16UbC-YyDdHkG-GvoEm8nC1yj78mSwjIONVJcmP-lKkZIcunPXViLF1PwLViN1L_QorE1ChxLPsSAU6TaarAirQFm4n4jEFqWWfVD3tEtAzqVUAKiiD0hfvFDOcKrqYdgVqf2JMpD4SXK2ZOClMhrlULlnSZjb74PdufJnEvxPGLVcTXeGBQfc0GKLfKYhgRA'
 ```
 
-```
 **response of example**
-
-
+```
 {
    "status" : "success",
    "message" : "Feedback id #A5W3ZN submitted",
