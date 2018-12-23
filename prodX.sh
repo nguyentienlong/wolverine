@@ -23,6 +23,6 @@ fi
 
 gunicorn app.main:application -b :$PORT --reload &
 
-echo "prod api ready!"
+echo "prod api ready ^^"
 
 # TODO: copy nginx conf, then restart nginx

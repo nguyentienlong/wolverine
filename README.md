@@ -6,6 +6,11 @@ API for vehicle sharing service
 
 * Provide API Endpoints
 
+### Prerequisite 
+
+- Google firebase account
+- Mailchimp account
+
 
 ### How do I get set up? 
 

@@ -23,6 +23,6 @@ fi
 
 gunicorn app.main:application -b :$PORT --reload &
 
-echo "stag api ready!"
+echo "stag api ready ^^"
 
 # TODO: copy nginx conf, then restart nginx
