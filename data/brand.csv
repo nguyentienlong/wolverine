@@ -1,0 +1,1034 @@
+manufacturer,brand,popularity
+Kia,Morning,1
+Kia,Rio,2
+Kia,K3,3
+Kia,Cerato,4
+Kia,Forte,5
+Kia,Sedona,6
+Kia,Rondo,7
+Kia,Carens,8
+Kia,Avella,0
+Kia,Cadenza,0
+Kia,Canirval,0
+Kia,CD5,0
+Kia,Clarus,0
+Kia,Concord,0
+Kia,Enterprise,0
+Kia,Jeep,0
+Kia,Joice,0
+Kia,K5,0
+Kia,K7,0
+Kia,Lotze,0
+Kia,Magentis,0
+Kia,Opirus,0
+Kia,Optima,0
+Kia,Picanto,0
+Kia,Potentia,0
+Kia,Pregio,0
+Kia,Pride,0
+Kia,Ray,0
+Kia,Retona,0
+Kia,Roadster,0
+Kia,Sephia,0
+Kia,Sorento,0
+Kia,Soul,0
+Kia,Spectra,0
+Kia,Sportage,0
+Kia,Visto,0
+Kia,Dòng khác,-1
+,,
+Toyota,Vios,1
+Toyota,Fortuner,2
+Toyota,Innova,3
+Toyota,Camry,4
+Toyota,Corolla Altis,5
+Toyota,Yaris,6
+Toyota,Land Cruiser,7
+Toyota,Zace,8
+Toyota,86,9
+Toyota,4 Runner,10
+Toyota,Allion,0
+Toyota,Alphard,0
+Toyota,Altezza,0
+Toyota,Aristo,0
+Toyota,Aurion,0
+Toyota,Avalon,0
+Toyota,Avanza,0
+Toyota,Avensis,0
+Toyota,Aygo,0
+Toyota,Brevis,0
+Toyota,Caldina,0
+Toyota,Cami,0
+Toyota,Carina,0
+Toyota,Celica,0
+Toyota,Century,0
+Toyota,Chaser,0
+Toyota,Corolla,0
+Toyota,Corona,0
+Toyota,Cressida,0
+Toyota,Cresta,0
+Toyota,Crown,0
+Toyota,Estima,0
+Toyota,Fj cruiser,0
+Toyota,Highlander,0
+Toyota,Hilux,0
+Toyota,Ipsum,0
+Toyota,IQ,0
+Toyota,Liteace,0
+Toyota,Mark II,0
+Toyota,Matrix,0
+Toyota,Mega cruiser,0
+Toyota,MR 2,0
+Toyota,Picnic,0
+Toyota,Platz,0
+Toyota,Prado,0
+Toyota,Previa,0
+Toyota,Prius,0
+Toyota,Progres,0
+Toyota,Raum,0
+Toyota,RAV4,0
+Toyota,Sequoia,0
+Toyota,Sera,0
+Toyota,Sienna,0
+Toyota,Soarer,0
+Toyota,Solara,0
+Toyota,Starlet,0
+Toyota,Supra,0
+Toyota,Tacoma,0
+Toyota,Tercel,0
+Toyota,Townace,0
+Toyota,Tundra,0
+Toyota,Venza,0
+Toyota,Verossa,0
+Toyota,Vista,0
+Toyota,Wigo,0
+Toyota,Wish,0
+Toyota,XA,0
+Toyota,Yaris Verso,0
+Toyota,Dòng khác,-1
+,,
+Ford,Ranger,1
+Ford,EcoSport,2
+Ford,Everest,3
+Ford,Focus,4
+Ford,Escape,5
+Ford,Laser,6
+Ford,Fiesta,7
+Ford,Acononline,0
+Ford,Aerostar,0
+Ford,Aspire,0
+Ford,Bronco,0
+Ford,Capri,0
+Ford,Caravan,0
+Ford,Club Wagon,0
+Ford,Contour,0
+Ford,Courier,0
+Ford,Crown victoria,0
+Ford,Edge,0
+Ford,Escort,0
+Ford,Espedition,0
+Ford,Explorer,0
+Ford,Express,0
+Ford,F-150,0
+Ford,F-350 Super Duty,0
+Ford,F700,0
+Ford,Flex,0
+Ford,Focus C Max,0
+Ford,Fusion,0
+Ford,Galaxie,0
+Ford,Ka,0
+Ford,Maverick,0
+Ford,Mondeo,0
+Ford,Mustang,0
+Ford,Orion,0
+Ford,Probe,0
+Ford,Puma,0
+Ford,Sierra,0
+Ford,Taurus,0
+Ford,Tempo,0
+Ford,Windstar,0
+Ford,Dòng khác,-1
+,,
+Chevrolet,Cruze,1
+Chevrolet,Spark,2
+Chevrolet,Aveo,3
+Chevrolet,Matiz,4
+Chevrolet,Captiva,5
+Chevrolet,Colorado,6
+Chevrolet,Lacetti,7
+Chevrolet,Orlando,8
+Chevrolet,Astro,0
+Chevrolet,Avalanche,0
+Chevrolet,Beretta,0
+Chevrolet,Camaro,0
+Chevrolet,Caprice,0
+Chevrolet,Cavalier,0
+Chevrolet,Chevy Van,0
+Chevrolet,Corsica,0
+Chevrolet,Corvette,0
+Chevrolet,Explorer,0
+Chevrolet,Impala,0
+Chevrolet,Ipanema,0
+Chevrolet,Kalos,0
+Chevrolet,Lumina,0
+Chevrolet,Malibu,0
+Chevrolet,Nubira,0
+Chevrolet,Prizm,0
+Chevrolet,S 10,0
+Chevrolet,Silverado,0
+Chevrolet,SSR,0
+Chevrolet,Suburban,0
+Chevrolet,Tracker,0
+Chevrolet,Trax,0
+Chevrolet,Venture,0
+Chevrolet,Vivant,0
+Chevrolet,Dòng khác,-1
+,,
+Hyundai,i10,1
+Hyundai,Santa Fe,2
+Hyundai,Elantra,3
+Hyundai,Tucson,4
+Hyundai,Accent,5
+Hyundai,Getz,6
+Hyundai,i20,7
+Hyundai,Avante,8
+Hyundai,Starex,9
+Hyundai,Sonata,10
+Hyundai,County,11
+Hyundai,Atos,0
+Hyundai,Azera,0
+Hyundai,Centenial,0
+Hyundai,Click,0
+Hyundai,Coupe,0
+Hyundai,Creta,0
+Hyundai,Dynasty,0
+Hyundai,Eon,0
+Hyundai,Equus,0
+Hyundai,Excel,0
+Hyundai,Galloper,0
+Hyundai,Genesis,0
+Hyundai,Grand Starex,0
+Hyundai,Grandeur,0
+Hyundai,H 1,0
+Hyundai,i30,0
+Hyundai,i40,0
+Hyundai,Innovation,0
+Hyundai,Lantra,0
+Hyundai,Lavita,0
+Hyundai,Maxcruz,0
+Hyundai,Pony,0
+Hyundai,S coupe,0
+Hyundai,Terracan,0
+Hyundai,Tiburon,0
+Hyundai,Trajet,0
+Hyundai,Tuscani,0
+Hyundai,Veloster,0
+Hyundai,Veracruz,0
+Hyundai,Verna,0
+Hyundai,Xcent,0
+Hyundai,XG,0
+Hyundai,Dòng khác,-1
+,,
+Honda,City,1
+Honda,CR V,2
+Honda,Civic,3
+Honda,Accord,4
+Honda,Odyssey,5
+Honda,Jazz,6
+Honda,Concerto,0
+Honda,CR X,0
+Honda,CR Z,0
+Honda,Domani,0
+Honda,Element,0
+Honda,FIT,0
+Honda,Insight,0
+Honda,Integra,0
+Honda,Legend,0
+Honda,Life,0
+Honda,Mobillo,0
+Honda,NSX,0
+Honda,Passport,0
+Honda,Pilot,0
+Honda,Prelude,0
+Honda,S2000,0
+Honda,Shuttle,0
+Honda,Stream,0
+Honda,Torneo,0
+Honda,Vigor,0
+Honda,Z,0
+Honda,Dòng khác,-1
+,,
+Mazda,Mazda 3,1
+Mazda,Mazda 2,2
+Mazda,CX 5,3
+Mazda,MX 6,4
+Mazda,BT 50,0
+Mazda,CX 9,0
+Mazda,CX 3,0
+Mazda,Mazda 323,0
+Mazda,Mazda 5,0
+Mazda,Mazda 6,0
+Mazda,Mazda 626,0
+Mazda,Mazda 929,0
+Mazda,Mazda 323F,0
+Mazda,Atenza,0
+Mazda,AZ,0
+Mazda,B-Series,0
+Mazda,Carol,0
+Mazda,CX 7,0
+Mazda,Eunos,0
+Mazda,Millenia,0
+Mazda,MPV,0
+Mazda,MX-3,0
+Mazda,MX-5,0
+Mazda,Pickup,0
+Mazda,Premacy,0
+Mazda,RX 7,0
+Mazda,RX 8,0
+Mazda,Tribute,0
+Mazda,Xedos 9,0
+Mazda,Dòng khác,-1
+,,
+Mitsubishi,Pajero,1
+Mitsubishi,Attrage,2
+Mitsubishi,Mirage,3
+Mitsubishi,Triton,4
+Mitsubishi,Outlander,5
+Mitsubishi,Jolie,6
+Mitsubishi,Grandis,7
+Mitsubishi,Zinger,8
+Mitsubishi,3000GT,0
+Mitsubishi,Airtek,0
+Mitsubishi,Challenger,0
+Mitsubishi,Chariot,0
+Mitsubishi,Colt,0
+Mitsubishi,Diamante,0
+Mitsubishi,Dion,0
+Mitsubishi,Eclipse,0
+Mitsubishi,EK wagon,0
+Mitsubishi,Galant,0
+Mitsubishi,Grunder,0
+Mitsubishi,GTO,0
+Mitsubishi,Hover,0
+Mitsubishi,IO,0
+Mitsubishi,Jeep,0
+Mitsubishi,L200,0
+Mitsubishi,L300,0
+Mitsubishi,L400,0
+Mitsubishi,Lancer,0
+Mitsubishi,Libero,0
+Mitsubishi,Montero,0
+Mitsubishi,Santamo,0
+Mitsubishi,Savrin,0
+Mitsubishi,Sigma,0
+Mitsubishi,Space Gear,0
+Mitsubishi,Starion,0
+Mitsubishi,Veryca,0
+Mitsubishi,Xpander,0
+Mitsubishi,Dòng khác,-1
+,,
+Acura,EL,0
+Acura,ILX,0
+Acura,Integra,0
+Acura,Legend,0
+Acura,MDX,0
+Acura,RDX,0
+Acura,RL,0
+Acura,RLX,0
+Acura,TL,0
+Acura,TLX,0
+Acura,TSX,0
+Acura,Vigor,0
+Acura,ZDX,0
+Acura,Dòng khác,-1
+,,
+Alfa Romeo,159,0
+Alfa Romeo,GT,0
+Alfa Romeo,Spider,0
+Alfa Romeo,Dòng khác,-1
+,,
+Asia,Dòng khác,-1
+,,
+Aston Martin,DB11,0
+Aston Martin,DB7,0
+Aston Martin,DB9,0
+Aston Martin,Lagonda,0
+Aston Martin,Rapide,0
+Aston Martin,Vanquish,0
+Aston Martin,Vantage,0
+Aston Martin,Virage,0
+Aston Martin,Zagato,0
+Aston Martin,Dòng khác,-1
+,,
+Audi,80,0
+Audi,90,0
+Audi,100,0
+Audi,200,0
+Audi,A1,0
+Audi,A2,0
+Audi,A3,0
+Audi,A4,0
+Audi,A5,0
+Audi,A6,0
+Audi,A7,0
+Audi,A8,0
+Audi,Cabriolet,0
+Audi,Coupe,0
+Audi,Q2,0
+Audi,Q3,0
+Audi,Q5,0
+Audi,Q7,0
+Audi,Quattro,0
+Audi,R8,0
+Audi,RS,0
+Audi,S8,0
+Audi,TT,0
+Audi,V8,0
+Audi,Dòng khác,-1
+,,
+Baic,BJ100 Concept,0
+Baic,BJ40,0
+Baic,CC,0
+Baic,D50,0
+Baic,S3,0
+Baic,X65,0
+Baic,Dòng khác,-1
+,,
+Bentley,Azure,0
+Bentley,Bentayga,0
+Bentley,Brooklands,0
+Bentley,Continental,0
+Bentley,Flying Spur,0
+Bentley,Mulsanne,0
+Bentley,Dòng khác,-1
+,,
+BMW,3 Series,1
+BMW,5 Series,2
+BMW,7 Series,3
+BMW,i8,4
+BMW,X6,5
+BMW,4 Series,6
+BMW,X5,7
+BMW,2 Series,8
+BMW,1 Series,9
+BMW,6 Series,10
+BMW,8 Series,11
+BMW,Alpina,0
+BMW,i3,0
+BMW,M couper,0
+BMW,M2,0
+BMW,M3,0
+BMW,M4,0
+BMW,M5,0
+BMW,M6,0
+BMW,X1,0
+BMW,X3,0
+BMW,X4,0
+BMW,Z3,0
+BMW,Z4,0
+BMW,Z8,0
+BMW,Dòng khác,-1
+,,
+Buick,Electra,0
+Buick,Lasabre,0
+Buick,Regal,0
+Buick,Skylark,0
+Buick,Dòng khác,-1
+,,
+BYD,F0,0
+BYD,Dòng khác,-1
+,,
+Cadillac,Allante,0
+Cadillac,ATS,0
+Cadillac,Catera,0
+Cadillac,CT6,0
+Cadillac,CTS,0
+Cadillac,Deville,0
+Cadillac,Escalade,0
+Cadillac,Fleetwood,0
+Cadillac,Seville,0
+Cadillac,SRX,0
+Cadillac,STS,0
+Cadillac,XT5,0
+Cadillac,Dòng khác,-1
+,,
+Changan,CS35,0
+Changan,CX20,0
+Changan,Eado,0
+Changan,Honor,0
+Changan,Dòng khác,-1
+,,
+Chery,QQ3,0
+Chery,Dòng khác,-1
+,,
+Chrysler,200,0
+Chrysler,300C,0
+Chrysler,300M,0
+Chrysler,Cruiser,0
+Chrysler,Grand Voyager,0
+Chrysler,Intrepid,0
+Chrysler,Jeep Cherokee,0
+Chrysler,LeBaron,0
+Chrysler,Neon,0
+Chrysler,New Yorker,0
+Chrysler,PT cruise,0
+Chrysler,Sebring,0
+Chrysler,Stratus,0
+Chrysler,Voyager,0
+Chrysler,Dòng khác,-1
+,,
+Citroen,AX,0
+Citroen,C1,0
+Citroen,C2,0
+Citroen,C3,0
+Citroen,CX,0
+Citroen,DS3,0
+Citroen,XM,0
+Citroen,ZX,0
+Citroen,Dòng khác,-1
+,,
+Daewoo,Aranos,0
+Daewoo,Arcadia,0
+Daewoo,Brougham,0
+Daewoo,Chairman,0
+Daewoo,Cielo,0
+Daewoo,Damas,0
+Daewoo,Espero,0
+Daewoo,Evanda,0
+Daewoo,Gentra,0
+Daewoo,GentraX,0
+Daewoo,Istana,0
+Daewoo,Kalos,0
+Daewoo,Karando,0
+Daewoo,Lacetti,0
+Daewoo,Lanos,0
+Daewoo,Leganza,0
+Daewoo,Lublin,0
+Daewoo,Magnus,0
+Daewoo,Matiz,0
+Daewoo,Musso,0
+Daewoo,Nexia,0
+Daewoo,Nubira,0
+Daewoo,Polonez,0
+Daewoo,Prince,0
+Daewoo,Racer,0
+Daewoo,Rexton,0
+Daewoo,Rezzo,0
+Daewoo,Tico,0
+Daewoo,Winstorm,0
+Daewoo,Dòng khác,-1
+,,
+Daihatsu,Ayla,0
+Daihatsu,Charade,0
+Daihatsu,Citivan,0
+Daihatsu,Gran Max,0
+Daihatsu,Sirion,0
+Daihatsu,Terios,0
+Daihatsu,Dòng khác,-1
+,,
+Dodge,Caravan,0
+Dodge,Dakota,0
+Dodge,Durango,0
+Dodge,Grand Caravan,0
+Dodge,Journey,0
+Dodge,Neon,0
+Dodge,Ram,0
+Dodge,Stealth,0
+Dodge,Viper,0
+Dodge,Voyager,0
+Dodge,Dòng khác,-1
+,,
+Ferrari,456,0
+Ferrari,458,0
+Ferrari,575,0
+Ferrari,California,0
+Ferrari,F 355,0
+Ferrari,F 360,0
+Ferrari,F 512,0
+Ferrari,Maranello,0
+Ferrari,Testarossa,0
+Ferrari,Dòng khác,-1
+,,
+Fiat,126,0
+Fiat,500,0
+Fiat,Albea,0
+Fiat,Bravo,0
+Fiat,Cinquecento,0
+Fiat,Coupe,0
+Fiat,Doblo,0
+Fiat,Punto,0
+Fiat,Regata,0
+Fiat,Seicento,0
+Fiat,Siena,0
+Fiat,Strada,0
+Fiat,Talento,0
+Fiat,Tempra,0
+Fiat,Tipo,0
+Fiat,Uno,0
+Fiat,Dòng khác,-1
+,,
+Gaz,69,0
+Gaz,Gazelle,0
+Gaz,Volga,0
+Gaz,Dòng khác,-1
+,,
+Geely,Emgrand,0
+Geely,Englon,0
+Geely,Dòng khác,-1
+,,
+GMC,Hummer,0
+GMC,Savana,0
+GMC,Dòng khác,-1
+,,
+Haima,2,0
+Haima,3,0
+Haima,7,0
+Haima,Freema,0
+Haima,Fstar,0
+Haima,M3,0
+Haima,M8,0
+Haima,S5,0
+Haima,S7,0
+Haima,Dòng khác,-1
+,,
+Hummer,H2,0
+Hummer,H3,0
+Hummer,Dòng khác,-1
+,,
+Infiniti,EX,0
+Infiniti,FX,0
+Infiniti,G35,0
+Infiniti,G37,0
+Infiniti,Q45,0
+Infiniti,Q50,0
+Infiniti,QX,0
+Infiniti,Dòng khác,-1
+,,
+Isuzu,Amigo,0
+Isuzu,Ascender,0
+Isuzu,Aska,0
+Isuzu,D Cargo,0
+Isuzu,Dmax,0
+Isuzu,Gemini,0
+Isuzu,Hi lander,0
+Isuzu,Mu X,0
+Isuzu,Pick up,0
+Isuzu,Rodeo,0
+Isuzu,Trooper,0
+Isuzu,Dòng khác,-1
+,,
+Jaguar,E Type,0
+Jaguar,F PACE,0
+Jaguar,F Type,0
+Jaguar,S Type,0
+Jaguar,X Type,0
+Jaguar,XE,0
+Jaguar,XF,0
+Jaguar,XJ series,0
+Jaguar,XK series,0
+Jaguar,Dòng khác,-1
+,,
+Jeep,A2,0
+Jeep,Cherokee,0
+Jeep,CJ,0
+Jeep,Compass,0
+Jeep,Grand Cherokee,0
+Jeep,Liberty,0
+Jeep,Patriot,0
+Jeep,Pickup,0
+Jeep,Renegade,0
+Jeep,Wrangler,0
+Jeep,Dòng khác,-1
+,,
+Lada,110,0
+Lada,320,0
+Lada,2104,0
+Lada,2105,0
+Lada,2106,0
+Lada,2107,0
+Lada,2108,0
+Lada,2109,0
+Lada,2112,0
+Lada,2121,0
+Lada,4x4,0
+Lada,Granta,0
+Lada,Kalina,0
+Lada,Largus,0
+Lada,Niva,0
+Lada,Priora,0
+Lada,Samara,0
+Lada,Vesta,0
+Lada,XRay,0
+Lada,Dòng khác,-1
+,,
+Lamborghini,Aventador,0
+Lamborghini,Diablo,0
+Lamborghini,Gallado,0
+Lamborghini,Huracan,0
+Lamborghini,Murcielago,0
+Lamborghini,Urus,0
+Lamborghini,Dòng khác,-1
+,,
+LandRover,Defender,0
+LandRover,Discovery,0
+LandRover,Freelander,0
+LandRover,LR2,0
+LandRover,Range Rover,0
+LandRover,Range Rover Evoque,0
+LandRover,Range Rover Sport,0
+LandRover,Range Rover Velar,0
+LandRover,Range Rover Vogue,0
+LandRover,Dòng khác,-1
+,,
+Lexus,RX,1
+Lexus,LS,2
+Lexus,NX,3
+Lexus,ES,4
+Lexus,LX,5
+Lexus,GX,6
+Lexus,GS,7
+Lexus,CT,0
+Lexus,HS,0
+Lexus,IS,0
+Lexus,LC,0
+Lexus,RC,0
+Lexus,SC,0
+Lexus,UX,0
+Lexus,Dòng khác,-1
+,,
+Lifan,520,0
+Lifan,620,0
+Lifan,S5,0
+Lifan,Dòng khác,-1
+,,
+Lincoln,Aviator,0
+Lincoln,Continental,0
+Lincoln,Navigator,0
+Lincoln,Town car,0
+Lincoln,Dòng khác,-1
+Luxgen,5,0
+Luxgen,7 MPV,0
+Luxgen,7 SUV,0
+Luxgen,M7,0
+Luxgen,U6,0
+Luxgen,U7,0
+Luxgen,Dòng khác,-1
+,,
+Maserati,Ghibli,0
+Maserati,Gransport,0
+Maserati,Granturismo,0
+Maserati,Levante,0
+Maserati,Quattroporte,0
+Maserati,Dòng khác,-1
+,,
+Maybach,57,0
+Maybach,62,0
+Maybach,S600,0
+Maybach,Dòng khác,-1
+,,
+Mekong,Premio,0
+Mekong,Pronto,0
+Mekong,Dòng khác,-1
+,,
+Mercedes Benz,C Class,1
+Mercedes Benz,S Class,2
+Mercedes Benz,GLC,3
+Mercedes Benz,E Class,4
+Mercedes Benz,GLK Class,5
+Mercedes Benz,GL Class,6
+Mercedes Benz,190,7
+Mercedes Benz,A Class,0
+Mercedes Benz,B Class,0
+Mercedes Benz,CL Class,0
+Mercedes Benz,CLA Class,0
+Mercedes Benz,CLK Class,0
+Mercedes Benz,CLS Class,0
+Mercedes Benz,G Class,0
+Mercedes Benz,GLA Class,0
+Mercedes Benz,GLE Class,0
+Mercedes Benz,M Class,0
+Mercedes Benz,ML Class,0
+Mercedes Benz,R Class,0
+Mercedes Benz,SL Class,0
+Mercedes Benz,SLK Class,0
+Mercedes Benz,SLR Mclaren,0
+Mercedes Benz,SR Class,0
+Mercedes Benz,V Class,0
+Mercedes Benz,Vaneo,0
+Mercedes Benz,Viano,0
+Mercedes Benz,Vito,0
+Mercedes Benz,Dòng khác,-1
+,,
+Mercury,Sable,0
+Mercury,Topaz,0
+Mercury,Villager,0
+Mercury,Dòng khác,-1
+,,
+MG,5,0
+MG,6,0
+MG,350C,0
+MG,Express,0
+MG,ZT,0
+MG,Dòng khác,-1
+,,
+Mini,Cooper,0
+Mini,One,0
+Mini,Dòng khác,-1
+,,
+Nissan,100NX,0
+Nissan,200SX,0
+Nissan,240SX,0
+Nissan,300ZX,0
+Nissan,350Z,0
+Nissan,370Z,0
+Nissan,Altima,0
+Nissan,Avenir,0
+Nissan,Bluebird,0
+Nissan,Cedric,0
+Nissan,Cefiro,0
+Nissan,Cima,0
+Nissan,Elgrand,0
+Nissan,Frontier,0
+Nissan,Gloria,0
+Nissan,Grand Livina,0
+Nissan,GT-R,0
+Nissan,Juke,0
+Nissan,Lago,0
+Nissan,Laurel,0
+Nissan,Leaf,0
+Nissan,Liberty,0
+Nissan,Livina,0
+Nissan,Maxima,0
+Nissan,Micra,0
+Nissan,Moco,0
+Nissan,Murano,0
+Nissan,Navara,0
+Nissan,Pathfinder,0
+Nissan,Patrol,0
+Nissan,Pick up,0
+Nissan,Pixo,0
+Nissan,Prairie,0
+Nissan,Presage,0
+Nissan,President,0
+Nissan,Primastar,0
+Nissan,Primera,0
+Nissan,Pulsar,0
+Nissan,Qashqai,0
+Nissan,Quest,0
+Nissan,Rasheen,0
+Nissan,Rogue,0
+Nissan,Safari,0
+Nissan,Sentra,0
+Nissan,Serena,0
+Nissan,Silvia,0
+Nissan,Skyline,0
+Nissan,Stagea,0
+Nissan,Sunny,0
+Nissan,Teana,0
+Nissan,Terrano,0
+Nissan,Tiida,0
+Nissan,Tino,0
+Nissan,Vanette,0
+Nissan,X Terra,0
+Nissan,X-Trail,0
+Nissan,Dòng khác,-1
+,,
+Opel,Antara,0
+Opel,Astra,0
+Opel,Combo,0
+Opel,Corsa,0
+Opel,GT,0
+Opel,Omega,0
+Opel,Record,0
+Opel,Tigra,0
+Opel,Vectra,0
+Opel,Dòng khác,-1
+,,
+Peugeot,107,0
+Peugeot,205,0
+Peugeot,206,0
+Peugeot,207,0
+Peugeot,208,0
+Peugeot,305,0
+Peugeot,306,0
+Peugeot,307,0
+Peugeot,308,0
+Peugeot,309,0
+Peugeot,404,0
+Peugeot,405,0
+Peugeot,406,0
+Peugeot,408,0
+Peugeot,505,0
+Peugeot,508,0
+Peugeot,605,0
+Peugeot,607,0
+Peugeot,3008,0
+Peugeot,5008,0
+Peugeot,RCZ,0
+Peugeot,Dòng khác,-1
+,,
+Pontiac,Aztek,0
+Pontiac,Fiero,0
+Pontiac,Firebird,0
+Pontiac,Solstice,0
+Pontiac,Trans sport,0
+Pontiac,Dòng khác,-1
+,,
+Porsche,Boxster,0
+Porsche,Carrera,0
+Porsche,Cayenne,0
+Porsche,Cayman,0
+Porsche,Macan,0
+Porsche,Panamera,0
+Porsche,Dòng khác,-1
+,,
+Proton,Arena,0
+Proton,Perdana,0
+Proton,Tiara,0
+Proton,Wira,0
+Proton,Dòng khác,-1
+,,
+Renault,11,0
+Renault,19,0
+Renault,21,0
+Renault,25,0
+Renault,Clio,0
+Renault,Duster,0
+Renault,Fluence,0
+Renault,Kangoo,0
+Renault,Koleos,0
+Renault,Laguna,0
+Renault,Latitude,0
+Renault,Logan,0
+Renault,Megane,0
+Renault,Safrane,0
+Renault,Sandero,0
+Renault,Sport Spider,0
+Renault,Trafic,0
+Renault,Wind,0
+Renault,Dòng khác,-1
+,,
+Rolls Royce,Ghost,0
+Rolls Royce,Park ward,0
+Rolls Royce,Phantom,0
+Rolls Royce,Wraith,0
+Rolls Royce,Dòng khác,-1
+,,
+Rover,100,0
+Rover,200,0
+Rover,400,0
+Rover,800,0
+Rover,Dòng khác,-1
+,,
+Samsung,QM5,0
+Samsung,SM3,0
+Samsung,SM5,0
+Samsung,SM7,0
+Samsung,Dòng khác,-1
+,,
+Scion,Tc,0
+Scion,xD,0
+Scion,Dòng khác,-1
+,,
+Smart,Coupe,0
+Smart,Forfour,0
+Smart,Fortwo,0
+Smart,Roadster,0
+Smart,Dòng khác,-1
+,,
+Ssangyong,Actyon,0
+Ssangyong,Chairman,0
+Ssangyong,Family,0
+Ssangyong,Korando,0
+Ssangyong,Kyron,0
+Ssangyong,Musso,0
+Ssangyong,Rexton,0
+Ssangyong,Stavic,0
+Ssangyong,Tivoli,0
+Ssangyong,XLV,0
+Ssangyong,Dòng khác,-1
+,,
+Subaru,BRZ,0
+Subaru,Forester,0
+Subaru,Impreza,0
+Subaru,Legacy,0
+Subaru,Levorg,0
+Subaru,Outback,0
+Subaru,Tribeca,0
+Subaru,WRX,0
+Subaru,XV,0
+Subaru,Dòng khác,-1
+,,
+Suzuki,Aerio,0
+Suzuki,Alto,0
+Suzuki,APV,0
+Suzuki,Baleno,0
+Suzuki,Celerio,0
+Suzuki,Ciaz,0
+Suzuki,Cultis Wagon,0
+Suzuki,Ertiga,0
+Suzuki,Grand Vitara,0
+Suzuki,Liana,0
+Suzuki,Samurai,0
+Suzuki,SJ,0
+Suzuki,Swift,0
+Suzuki,Twin,0
+Suzuki,Vitara,0
+Suzuki,Wagon R+,0
+Suzuki,XL 7,0
+Suzuki,Dòng khác,-1
+,,
+Tesla,3,0
+Tesla,S,0
+Tesla,X,0
+Tesla,Dòng khác,-1
+,,
+UAZ,Hunter,0
+UAZ,Patriot,0
+UAZ,Pickup,0
+UAZ,Dòng khác,-1
+,,
+Volkswagen,Beetle,0
+Volkswagen,Bora,0
+Volkswagen,California,0
+Volkswagen,Eos,0
+Volkswagen,Golf,0
+Volkswagen,Jetta,0
+Volkswagen,Multivan,0
+Volkswagen,New Beetle,0
+Volkswagen,Passat,0
+Volkswagen,Phaeton,0
+Volkswagen,Polo,0
+Volkswagen,Routan,0
+Volkswagen,Scirocco,0
+Volkswagen,Sharan,0
+Volkswagen,Solo,0
+Volkswagen,Tiguan,0
+Volkswagen,Touareg,0
+Volkswagen,Transporter,0
+Volkswagen,Vento,0
+Volkswagen,Dòng khác,-1
+,,
+Volvo,340,0
+Volvo,360,0
+Volvo,460,0
+Volvo,740,0
+Volvo,760,0
+Volvo,850,0
+Volvo,940,0
+Volvo,960,0
+Volvo,C70,0
+Volvo,S60,0
+Volvo,S90,0
+Volvo,V70,0
+Volvo,XC60,0
+Volvo,XC90,0
+Volvo,Dòng khác,-1
+,,
+Zotye,T600,0
+Zotye,Z100,0
+Zotye,Z300,0
+Zotye,Z500,0
+Zotye,Dòng khác,-1
+,,
+Hãng khác,Dòng khác,-1
