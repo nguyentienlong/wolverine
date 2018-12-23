@@ -21,3 +21,4 @@ app/service/history/__pycache__/
 conf/*
 !conf/*.sample
 !conf/sample.ini
+*.pyc
